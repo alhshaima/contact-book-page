@@ -1,0 +1,32 @@
+
+/* Global styles for Shaima's Contact Book */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff8fb;
+  color: #543449;
+  font-family: 'Nunito', Arial, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #f7dce7;
+  color: #543449;
+}
